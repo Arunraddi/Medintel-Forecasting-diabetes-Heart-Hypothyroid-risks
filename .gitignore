@@ -1,0 +1,23 @@
+# Ignore node_modules and environment files
+**/node_modules/
+**/.env
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore package lock files (optional)
+# package-lock.json
+# yarn.lock
