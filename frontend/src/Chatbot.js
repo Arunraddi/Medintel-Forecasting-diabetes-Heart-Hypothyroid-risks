@@ -5,7 +5,7 @@ import {
 import { ChatIcon, CloseIcon } from "@chakra-ui/icons";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const GEMINI_API_KEY = "AIzaSyBBzkWingDV0UfdZcztQCbFDePiLUXsx4M"; // Replace with your Gemini key
+ // Replace with your Gemini key
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
